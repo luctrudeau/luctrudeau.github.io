@@ -176,6 +176,7 @@ h={};g()}};typeof define==="function"&&define.amd&&define("google-code-prettify"
 		'</div>'+  
 		'<div id="navbar-main" class="navbar-collapse collapse" style="height: 1px;">'+
 		'<ul id="menu-line-nav" class="nav navbar-nav">'+menu+'</ul>'+
+		'<ul id="menu-line-nav" class="nav navbar-nav" style="position:absolute;right:10%"><li><a href="https://ca.linkedin.com/in/luctrudeau" style="padding:0; margin:0;"><img height="32px" src="images/In.png"/></a></li><li><a href="https://github.com/luctrudeau" style="padding:0; margin:0;"><img width="32px" src="images/GitHub-Mark-32px.png"/></a></li><li><a href="https://twitter.com/LT_Pragmatic" style="padding:0; margin:0;"><img width="32px" src="images/TwitterLogo.png"/></a></li></ul>'+
 		'</div>'+
 		'</div>';
 	}  
