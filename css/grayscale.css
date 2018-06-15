@@ -32,12 +32,30 @@ p {
   text-align:left;
 }
 
+ul, li {
+  font-size: 1rem;
+  text-align:left;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
 @media (min-width: 768px) {
   p {
     font-size: 1.42rem;
     line-height: 1.6;
     margin: 0 0 35px;
     text-align: left;
+  }
+
+  ul, li {
+    font-size: 1.25rem;
+    text-align:left;
+  }
+
+  h2 {
+    font-size: 3rem;
   }
 }
 
@@ -146,6 +164,7 @@ a:focus, a:hover {
 
 .masthead .intro-body .intro-text {
   font-size: 1rem;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -158,6 +177,7 @@ a:focus, a:hover {
   }
   .masthead .intro-body .intro-text {
     font-size: 1.42rem;
+    text-align: center;
   }
 }
 
@@ -219,6 +239,7 @@ a:focus, a:hover {
 
 ul.banner-social-buttons {
   margin-top: 0;
+  text-align: center;
 }
 
 @media (max-width: 1199px) {
@@ -232,6 +253,7 @@ ul.banner-social-buttons {
     display: block;
     margin-bottom: 20px;
     padding: 0;
+    text-align: center;
   }
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
